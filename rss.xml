@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>W3Schools Home Page</title>
+  <link>https://www.nahidhk.info</link>
+  <description>Nahid HyperText Keeping, is a web developer.
+          He does electrical circuit repairing of mechanical. Moreover, he makes transfers through various channels.
+          He has been interested in mechanics since long. There are many mechanical projects.
+          He works in student life. But he is not unemployed.
+          He earns.
+          But he earns from mechanical side.
+          He is very knowledgeable in Machine Learning in Science.</description>
+  <item>
+    <title>NAHID HK</title>
+    <link>http://www.nahidhk.info/</link>
+    <description>Nahid HyperText Keeping, is a web developer.
+          He does electrical circuit repairing of mechanical. Moreover, he makes transfers through various channels.
+          He has been interested in mechanics since long. There are many mechanical projects.
+          He works in student life. But he is not unemployed.
+          He earns.
+          But he earns from mechanical side.
+          He is very knowledgeable in Machine Learning in Science.</description>
+  </item>
+  <item>
+    <title>Web Developer</title>
+    <link>https://www.nahidhk.info/src</link>
+    <description>SRC</description>
+  </item>
+</channel>
+
+</rss>

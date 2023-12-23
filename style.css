@@ -1,0 +1,380 @@
+/*======================= 
+   CSS ULTA FUNCTION 
+========================*/
+/* 404.html */
+
+@font-face {
+  font-family: font1;
+  src: url("/font/REVOLUTION.ttf");
+}
+
+/* the weve font */
+p,span,div,section{
+  font-family: sans-serif;
+}
+
+
+
+/*=========X============= 
+   CSS DESKTOP STYLE
+===========X=============*/
+
+/* nav style*/
+
+/* index.html line: 35  */
+/*404.html  */
+.for{
+  font-size: 7rem;
+  font-family: sans-serif;
+ color: #A605FF;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*nav bar */
+/* index.html line: 37  */
+.nav-bar {
+  height: 80px;
+  width: 100%;
+}
+/* index.html line: tag  */
+button {
+  cursor: pointer;
+}
+/* index.html line:37/tag */
+.nav-bar button {
+  background-color: #C8C8C800;
+  border: none;
+  outline-color: none;
+  outline: none;
+  font-family: font1;
+  text-decoration: none;
+  font-size: 20px;
+  color: #FF0086;
+  transition: all 0.3s ease;
+}
+/* index.html line:37/tag */
+.nav-top button:hover {
+  border-bottom: 2px solid #FF0086;
+}
+/* index.html line:37/tag */
+.nav-top button:active {
+  background-color: red;
+  color: white;
+}
+/* index.html line: 52 */
+.nav-top {
+  position: absolute;
+  right: 28px;
+  top: 20px;
+
+}
+/* index.html line: 41*/
+.title-nav {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+}
+/* index.html line:41/tag */
+.title-nav span {
+  font-family: font1;
+  font-size: 3rem;
+  color: #FF8200;
+}
+/* index.html line:45 */
+.mobile {
+  display: none;
+}
+/* index.html line:85 */
+.close {
+  display: none;
+}
+/* my index img */
+/* index.html line:95 */
+.box{
+  height: auto;
+  
+}
+/* index.html line:98 */
+.box .boxp{
+  height: 500px;
+  width: 480px;
+  position: absolute;
+}
+/* index.html line:98 */
+.box1{
+  right: 0;
+  animation: if 0.8s ;
+}
+
+@keyframes if{
+  from {width: 0;
+  height: 0;}
+  to { height: 500px;
+  width: 480px;  }
+}
+/* index.html line:104 */
+.box2{
+  left: 0;
+    animation: rote 0.8s;
+}
+@keyframes rote{
+  from {transform: rotateZ(60deg);}
+  to {  }
+}
+/* my img */
+/* index.html line:100 */
+.img{
+  height: 400px;
+  width: 400px;
+}
+/* box 2 style */
+/* index.html line:108 */
+.title{
+  font-size: 2.6rem;
+  font-family: font1;
+  color: #FF0074;
+}
+/* index.html line:106 */
+.top-str{
+  left: 60px;
+  position: absolute;
+  top: 100px;
+  height: 300px;
+  width: 350px;
+  
+}
+/* index.html line:118 */
+.ele-btn{
+  height: 30px;
+  width: 150px;
+  outline: none;
+  border-radius: 3px;
+ transition: all 0.3s;
+ cursor: pointer;
+ /*hover*/
+   background-color: #EF20EE00;
+   border: 1px solid #EF20EE;
+   color: #EF20EE;
+}
+/* index.html line:118 */
+.ele-btn:hover{
+  background-color: #EF20EE;
+  border: none;
+  color: white;
+
+}
+/* index.html line:120 */
+.icon-box{
+  height: 60px;
+  width: 90%;
+  padding: 10px;
+  justify-content: space-between;
+      display: flex;
+
+}
+/* index.html line:123 */
+.icon-box .icon{
+  height: 50px;
+  width: 50px;
+  
+  border-radius: 100px;
+  cursor: pointer;
+   transition: all 0.3s;
+     color: #A3A3A3;
+
+}
+/* index.html line:123 */
+.icon-box .icon:hover{
+     color: #EF20EE;
+font-size: 40px;
+}
+/* index.html line:125 */
+.icon i{
+ font-size: 36px;
+}
+/* index.html line: */
+.foter{
+  height: 100px;
+  background-color: red;
+  width: 100%;
+}
+/* index.html line:150 */
+.copy{
+  font-size: 10px;
+  text-align: center;
+}
+/* index.html line:88 */
+.ti{
+  font-size: 40px;
+  color: #4F4F4F;
+}
+/*==========X============ 
+   CSS DESKTOP STYLE
+============X===========*/
+
+/*lodding style unlimited style--*/
+.lod-ff{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+.lod-ff .img-logo{
+background-color: #FFA60000; 
+height: 200px;
+width: 200px;
+}
+.lod-ff .center6{
+ position: absolute;
+ left: 50%;
+ top: 30%;
+ transform: translate(-50%,-50%);
+}
+.logo-im{
+ height: 200px;
+ width: 200px;
+}
+.load-ani{
+    height: 5px;
+    width: 200px;
+    background-color: #C8C8C8;
+  }
+ .laod-xl{
+   height: 5px;
+   width: 200px;
+   background-color: #FF9400;
+   animation: loading 3s;
+ } 
+ @keyframes loading{
+   from{
+     width: 0%;
+   }
+  to{width: 200px;}
+ }
+.box{
+    display: none;
+  }
+/*======================= 
+   CSS MOBILES STYLE
+========================*/
+@media only screen and (max-width: 800px) {
+
+  /* nav top link box */
+ /* index.html line:36 */ 
+  body{
+    height: 190vh;
+  }
+  /* index.html line:53 */
+  .nav-top {
+    position: fixed;
+    height: 0;
+    width: 0;
+    background-color: #C8C8C8;
+    z-index: 5;
+    top: 0;
+    right: 0;
+  }
+
+  @keyframes b3 {
+    from {
+      height: 0;
+      width: 0;
+    }
+
+    to {
+      height: 100vh;
+      width: 100%;
+    }
+  }
+
+  @keyframes d3 {
+    from {
+      height: 100vh;
+      width: 100%;
+    }
+
+    to {
+      height: 0;
+      width: 0;
+    }
+  }
+/* index.html line:56 */
+  .nav-top button {
+    cursor: pointer;
+    height: 40px;
+    width: 65%;
+    background-color: #FF7E00;
+    color: white;
+    margin: 10px;
+    text-shadow: 0 0 2px black;
+  }
+
+  /* mobile menu*/
+  /* index.html line:46 */
+  .mobile {
+    display: block;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+/* index.html line:46 */
+  .mobile:active {
+    background-color: #FF7E00;
+  }
+
+  /* close menu*/
+/* index.html line:86 */  
+  .close {
+    height: 50px;
+    width: 50px;
+  
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    display: none;
+  }
+  
+.box .boxp{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* img box solid */
+.img{
+  width: 360px;
+  height: 360px;
+}
+.boxp .top-str{
+  top: 20px;
+  left: 10px;
+  text-align: center;
+  height: auto;
+}
+.top-str p{
+  font-size: 18pt;
+}
+.icon-box{
+  width: 96%;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+.icon-box .icon{
+  height: 60px;
+  width: 60px;
+}
+
+}
+
+/*==========X============ 
+   CSS MOBILES STYLE
+==========X============*/
