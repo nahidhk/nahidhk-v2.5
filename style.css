@@ -1,3 +1,6 @@
+/*========= google font link **/
+
+
 /*======================= 
    CSS ULTA FUNCTION 
 ========================*/
@@ -5,12 +8,12 @@
 
 @font-face {
   font-family: font1;
-  src: url("/font/REVOLUTION.ttf");
+  src: url("font/SpaceGrotesk-Bold.ttf");
 }
 
 /* the weve font */
 p,span,div,section{
-  font-family: sans-serif;
+  font-family: font1;
 }
 
 
@@ -25,7 +28,7 @@ p,span,div,section{
 /*404.html  */
 .for{
   font-size: 7rem;
-  font-family: sans-serif;
+  font-family: font1;
  color: #A605FF;
 }
 body {
@@ -39,6 +42,8 @@ body {
 .nav-bar {
   height: 80px;
   width: 100%;
+ position: static;
+ top: 0;
 }
 /* index.html line: tag  */
 button {
@@ -249,7 +254,7 @@ width: 200px;
    height: 5px;
    width: 200px;
    background-color: #FF9400;
-   animation: loading 3s;
+   animation: loading 2s;
  } 
  @keyframes loading{
    from{
@@ -260,6 +265,77 @@ width: 200px;
 .box{
     display: none;
   }
+  
+  
+  
+  
+ /* email side */
+  .e-box{
+    z-index: 3;
+    display: none;
+   display: none; 
+    height: auto;width: 340px;background-color: white;position: fixed;top:40%;left: 50%;transform: translate(-50%, -50%);
+    box-shadow:  0 0 100px 0 black;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
+   animation: email 1s;
+
+  }
+  .e-box .iput{
+    padding-left: 10px;
+   height: 46px;
+   width: 260px;
+   outline: none;
+   border: 1px solid #4958FF;
+   color: #4958ff;
+   border-radius: 5px;
+   margin-top: 30px;
+   margin-left: 30px;
+  }
+ .e-box input[type="email"]::placeholder{
+   color: #4958ff;
+ }
+  .e-box input[type="email"]{
+    width: 65%;
+  height: 42px;
+  position: absolute;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+  outline-color: none;
+  color: #4958ff;
+  }
+   .e-box button{
+  width: 250px;
+   height: 46px;
+   outline: none;
+   border: 1px solid #4958FF;
+   color: #4958ff;
+   margin-top: 8px;
+   border-radius: 5px;
+   margin-bottom: 30px;
+  margin-left: 38px;
+background-color: #FFFFFF;
+cursor: pointer;
+ transition: all 0.3s;  
+   }
+ .e-box button:hover {
+   background-color: #4958ff;
+   color: #FFFFFF;
+ } 
+ @keyframes email{
+   0%{top: 0; opacity: 0;}
+   100%{top: 40%; opacity: 1;}
+ }
+ .bi-envelope{
+   position: relative;
+   top: 8px;
+ }
+ .xxt{
+   display: none;
+ }
+ 
 /*======================= 
    CSS MOBILES STYLE
 ========================*/
@@ -267,9 +343,7 @@ width: 200px;
 
   /* nav top link box */
  /* index.html line:36 */ 
-  body{
-    height: 190vh;
-  }
+
   /* index.html line:53 */
   .nav-top {
     position: fixed;

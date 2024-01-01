@@ -5,7 +5,7 @@
   <!-- bootstrap icon link tag -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
   <!-- favicon-->
-  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="apple-touch-icon" href="svg.png">
   <!-- custom style link  media print-->
   <link rel="stylesheet" href="style.css" media="print">
   <!-- atom xml code link -->
@@ -34,6 +34,36 @@
 <!--- web main body -->
 
 <body>
+  <!-- the email data save load function -->
+  <div id="e-box" class="e-box">
+  <div class="iput">
+ <i style="font-size:25px; " class="bi bi-envelope"></i><input placeholder="Enter Your email" type="email" id="email" value="" required/>
+  </div>
+
+    <button onclick="setok()">Subscribe &nbsp; <i class="bi bi-arrow-right"></i></button>
+
+</div>
+
+<div id="emain" class="e-box xxt">
+  <form action="mail.php" method="post">
+
+  <div class="iput">
+    <label for="email"></label>
+ <i style="font-size:25px; " class="bi bi-envelope"></i><input placeholder="error mail not found" class="inpt" type="email" id="email1" name="email" value="" required/>
+  </div>
+  
+<button type="submit">Verify Email &nbsp; <i style="font-size: 20px" class="bi bi-check2-circle"></i></button>
+</form>
+</div>
+
+<!---- mail function out--->
+  
+  
+  
+  
+  
+  
+  
   <!-- load function -->
   <section id="load" class="lod-ff">
     <!-- side effects data-->
@@ -42,7 +72,7 @@
       <!-- img show documents -->
       <div class="img-logo">
         <!-- tavi top img system tag -->
-        <img class="logo-im" src="/logo.png" />
+        <img class="logo-im" src="nahidhk.png" />
       </div>
       <!-- loading effects-->
       <div class="load-ani">
@@ -141,26 +171,26 @@
         <div class="icon-box">
           <!-- social media icon div tag-->
           <!-- GitHub -->
-          <div class="icon">
+          <div onclick="window.location.href='https://github.com/nahidhk'" class="icon">
             <i class="bi bi-github"></i>
 
           </div>
 
           <!--- Facebook --->
-          <div class="icon">
+    <div onclick="window.location.href='https://www.facebook.com/nahid.hk.bd'" class="icon">
             <i class="bi bi-facebook"></i>
           </div>
 
           <!-- x-->
-          <div class="icon">
+          <div onclick="window.location.href='https://www.x.com/NAHIDHK0'" class="icon">
             <i class="bi bi-twitter-x"></i>
           </div>
-          <div class="icon">
+          <div onclick="window.location.href='https://www.instagram.com/nahidhk0'" class="icon">
             <i class="bi bi-instagram"></i>
           </div>
           <!-- LinkedIn -->
 
-          <div class="icon">
+          <div onclick="window.location.href='https://www.linkedin.com/in/nahidhk'" class="icon">
             <i class="bi bi-linkedin"></i>
           </div>
           <!-- tag end -->

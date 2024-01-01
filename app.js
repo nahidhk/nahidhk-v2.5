@@ -29,10 +29,35 @@ function load(){
   document.getElementById("box").style.display="block";
 }
 
-const myser = setTimeout(load,5000)
+const myser = setTimeout(load,2000)
 
 /// login system
 function logoin(){
   window.location.href="https://www.account.nahidhk.info/"
 
+}
+
+
+function eBox() {
+  var loca = localStorage.getItem("display");
+  if (loca !== "none") {
+    document.getElementById("e-box").style.display = "block";
+    navigator.vibrate(1000);
+  }
+}
+
+setTimeout(eBox, 3000);
+
+  function setok(){
+ var emailio = document.getElementById("email").value;
+   
+  localStorage.setItem("display", "none");
+  // email data save 
+  localStorage.setItem("email", emailio);
+  
+     event.preventDefault();
+document.getElementById("emain").style.display="block";
+  document.getElementById("e-box").style.display = "none";
+  document.getElementById("email1").value=emailio;
+  alert("your Mail is :" + emailio + " please confirm the mail!");
 }

@@ -3,14 +3,6 @@
   border-bottom: 4px solid ;
 }
 
-.rrrx{
-  height: auto;
-  width: 98%;
-}
-.rrrx .title1{
-  font-size: 30px;
-}
-
 /* ul li a */
 ul{
 
@@ -42,4 +34,22 @@ ul li a:hover{
   padding-left: 18px;
   padding-right: 18px;
   border-radius: 100px;
+}
+.tk{
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+    text-align: center;
+
+}
+.tk .titleo{
+  font: 2em Arial,sans-serif;
+  color: #007BFF;
+  border-bottom: 1px solid ;
+}
+.about-box titleo{
+  font: 1em Arial,sans-serif;
+  font-size: 1rem;
 }
