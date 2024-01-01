@@ -28,4 +28,6 @@ Powered By ® Nahid HK
     echo "Confirmation email sent to $userEmail!";
 }
 ?>
-
+<script>
+  window.location.href="v.html"
+</script>
